@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(53, 53, 138);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.janela {
+    background: #c0c0c0;
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+    width: 45%;
+    margin: 0px auto;
+    color: black;
+    padding: 1px;
+}
+.content {
+    padding: 20px;
+    border: 1px inset #ffffff;
+    margin: 1px;
+    background: #c0c0c0;
+    overflow-wrap: break-word;
+}
+.title-bar {
+    background: linear-gradient(90deg, #000080, #1084d0);
+    color: white;
+    padding: 3px 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cadastrar {
+    padding: 2px;
+}
+.forms {
+    display: flex;
+}
+.gengar {
+    width: 20%;
+    position: relative;
+    left: 689px;
+    top: 670px;
+}
+.pikachu {
+    width: 10%;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.mew {
+    width: 20%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+.blastoise {
+    width: 20%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    transform: scaleX(-1);
+}
+.giratina {
+    width: 20%;
+    position: fixed;
+    right: 35px;
+    bottom: -10px;
+}
+.lucario {
+    width: 10%;
+    position: fixed;
+    left: 200px;
+    bottom: 0px;
+    transform: scaleX(-1);
+}
+.entei {
+    width: 20%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+.explication {
+    font-size: 70%;
+    opacity: 50%;
+}

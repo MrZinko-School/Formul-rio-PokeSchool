@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulários</title>
+    </head>
+    <body>
+        <img class="gengar" src="Images/Gengar.gif">
+        <img class="giratina" src="Images/Giratina.gif">
+        <img class="pikachu" src="Images/Pikachu.gif">
+        <img class="mew" src="Images/Mew.gif">
+        <img class="blastoise" src="Images/Blastoise.gif">
+        <img class="lucario" src="Images/Lucario.gif">
+        <img class="entei" src="Images/Entei.gif">
+
+        <div class="janela">
+            <div class="title-bar">
+                <span>Login PokeSchool</span>
+            </div>
+            <div class="content">
+
+                <span>Olá, agradecemos desde já por decidir fazer parte da nossa oficina sobre pokémons.</span>
+                <br>
+                <span>Vamos partir agora para seu cadastro.</span>
+                <br><br>
+
+                <div class="forms">
+                    <form>
+                        <label for="e-mail">E-mail:</label><br>
+                        <input type="email" id="e-mail" name="e-mail" placeholder="Insira seu email">
+                    <br><br>
+                        <label for="senha">Senha:</label><br>
+                        <input type="password" id="senha" name="senha" placeholder="Insira sua senha">
+                    <br><br>
+                        <label for="pnome">Nome:</label><br>
+                        <input type="text" id="pnome" name="pnome" placeholder="Digite seu primeiro nome">
+                    <br><br>
+                        <label for="nascimento">Nascimento:</label><br>
+                        <input type="date" id="nascimento" name="nascimento">
+                    <br><br>
+                        <label for="favorito">Pokémon favorito:</label><br>
+                        <select name="boxofavorito" id="favorito">
+                            <option value="Bulbasaur">Bulbasaur</option>
+                            <option value="Charmander">Charmander</option>
+                            <option value="Squirtle">Squirtle</option>
+                            <option value="Chikorita">Chikorita</option>
+                            <option value="Cyndaquil">Cyndaquil</option>
+                            <option value="Totodile">Totodile</option>
+                            <option value="Treecko">Treecko</option>
+                            <option value="Torchic">Torchic</option>
+                            <option value="Mudkip">Mudkip</option>
+                            <option value="Turtwig">Turtwig</option>
+                            <option value="Chimchar">Chimchar</option>
+                            <option value="Piplup">Piplup</option>
+                        </select>
+                    <br><br>
+                        <label for="redesocial">Rede Social</label><br>
+                        <select name="boxredesocial" id="redesocial">
+                            <option value="Facebook">Facebook</option>
+                            <option value="Instagram">Instagram</option>
+                            <option value="Twitter">Twitter</option>
+                            <option value="TikTok">TikTok</option>
+                        </select>
+                    <br><br>
+                        <label for="hora">Horário</label><br>
+                        <span class="explication">Horário de disponibilidade para realizar o curso</span><br>
+                        <input name="hora" id="hora" type="time">
+                    <br><br>
+                        <input class="cadastrar" type="submit" value="Cadastrar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
